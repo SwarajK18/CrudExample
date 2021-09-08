@@ -6,8 +6,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CrudMVCEx.Data;
-using CrudMVCEx.Data.Model;
+using CrudMVCEx.DAL.Data.Model;
 using Microsoft.AspNetCore.Authorization;
+using CrudMVCEx.DAL.Data;
 
 namespace CrudMVCEx.Controllers
 {

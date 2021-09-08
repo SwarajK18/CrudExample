@@ -1,11 +1,11 @@
-﻿using CrudMVCEx.Data.Model;
+﻿using CrudMVCEx.DAL.Data.Model;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CrudMVCEx.Data
+namespace CrudMVCEx.DAL.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {

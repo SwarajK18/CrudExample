@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace CrudMVCEx.Data.Migrations
+namespace CrudMVCEx.DAL.Data.Migrations
 {
     public partial class init : Migration
     {

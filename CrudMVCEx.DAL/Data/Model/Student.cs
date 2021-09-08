@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CrudMVCEx.Data.Model
+namespace CrudMVCEx.DAL.Data.Model
 {
     public class Student
     {

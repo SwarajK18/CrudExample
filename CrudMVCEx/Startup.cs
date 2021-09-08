@@ -1,3 +1,4 @@
+using CrudMVCEx.DAL.Data;
 using CrudMVCEx.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
