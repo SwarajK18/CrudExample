@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CrudMVCEx.Data;
 using CrudMVCEx.Data.Model;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CrudMVCEx.Controllers
 {
+    [Authorize]
     public class StudentsController : Controller
     {
         private readonly CrudMVCExDbContext _context;
